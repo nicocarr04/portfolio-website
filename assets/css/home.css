@@ -1,0 +1,54 @@
+body {
+    background-image: url("/assets/imgs/background.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+  }
+
+.welcome {
+
+    border: 5px rgb(247, 247, 247) solid;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.393);
+}
+
+.navbar {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.828),  rgba(85, 166, 241, 0.8));
+}
+
+h1 {
+    color:rgb(47, 149, 217);
+    font-size: 10vw;
+    letter-spacing: 0.5ch;
+    
+}
+
+h2 {
+    color:rgb(73, 128, 164);
+    font-size: 5vw;
+}
+
+@media (max-width: 980px) {
+    .welcome {
+        margin: 10%;
+    }
+
+    h1 {
+        font-size: 15vw;
+        
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+}
